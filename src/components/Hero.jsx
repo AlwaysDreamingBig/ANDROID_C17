@@ -2,7 +2,7 @@ import React from 'react'
 import Section from './Section'
 import Button from './Button'
 import { curve, heroBackground, robot } from "../assets";
-import { android17_Elden } from '../assets/myImages';
+import { android17_Elden, androidBackground, androidBackground2 } from '../assets/myImages';
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
@@ -59,6 +59,15 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className='absolute md:-top-[34%] md:-left-[14%] md:-right-[14%] sm:-left-[15%] sm:-right-[15%] sm:-top-[14%] -top-[7%] -left-[10%] -right-[10%]' >
+                    <img 
+                        src={androidBackground2}
+                        className='blur-xl'
+                        width={1440}
+                        height={1880} 
+                        alt="hero section" />
+                </div>      
             </div>
         </div>
         
