@@ -16,6 +16,18 @@
   scroll-behavior: smooth;
 }
 
+/* Custom CSS to hide scrollbars */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
 @layer base {
   body {
     @apply font-sans bg-m-8 text-n-1 text-base;
