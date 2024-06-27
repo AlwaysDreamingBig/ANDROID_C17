@@ -6,6 +6,7 @@ import { BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { MyBackgroundCircles } from './design/MyHero';
+import Generating from './GeneratingCard';
 
 const Hero = () => {
 
@@ -60,6 +61,8 @@ const Hero = () => {
                                 />
                             </div>
                         </div>
+
+                        <Generating className="absolute left-4 right-4 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2 "/>
                     </div>
                 </div>
 
@@ -71,6 +74,7 @@ const Hero = () => {
                         height={1880} 
                         alt="hero section" />
                 </div> 
+
 
                 <ScrollParallax isAbsolutelyPositioned>
                     <ul className='hidden absolute -left-[7.5rem] 2xl:-left-[10.5rem] xl:bottom-[29.5rem] px-1 py-1 bg-m-8/90 border border-m-9/10 rounded-xl xl:flex'>
