@@ -35,6 +35,8 @@ import {
     twitter,
     yourlogo,
   } from "../assets";
+
+  import {topLogo, pageLogo, android17_Elden, androidBackground, androidBackground2, notifIcon, mpouli, lembe, pasta, a, b, c, d, e, f, g, h, i, j} from "../assets/myImages";
   
   export const navigation = [
     {
@@ -82,7 +84,7 @@ import {
   
   export const notificationImages = [notification4, notification3, notification2];
   
-  export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+  export const companyLogos = [a, h, c, i, e];
   
   export const brainwaveServices = [
     "Photo generating",

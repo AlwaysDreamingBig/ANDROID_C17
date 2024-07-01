@@ -8,6 +8,7 @@ import { ScrollParallax } from "react-just-parallax";
 import { MyBackgroundCircles } from './design/MyHero';
 import Generating from './GeneratingCard';
 import Notification from './NotificationCard';
+import CompanyLogos from './design/CompaniesLogo';
 
 const Hero = () => {
 
@@ -67,18 +68,18 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className='absolute md:-top-[34%] md:-left-[14%] md:-right-[14%] sm:-left-[15%] sm:-right-[15%] sm:-top-[14%] -top-[7%] -left-[10%] -right-[10%]' >
+                <div className='absolute lg:-top-[74%] lg:-left-[4%] lg:-right-[14%]    md:-top-[44%]    sm:-left-[15%] sm:-right-[15%] sm:-top-[14%]         -top-[7%] -left-[10%] -right-[10%]' >
                     <img 
                         src={androidBackground2}
                         className='blur-xl'
-                        width={1440}
-                        height={1880} 
+                        width={1124}
+                        height={1124} 
                         alt="hero section" />
                 </div> 
 
 
                 <ScrollParallax isAbsolutelyPositioned>
-                    <ul className='hidden absolute -left-[7.5rem] 2xl:-left-[10.5rem] xl:bottom-[29.5rem] px-1 py-1 bg-m-8/90 border border-m-9/10 rounded-xl xl:flex'>
+                    <ul className='hidden absolute -left-[7.5rem] 2xl:-left-[10.5rem] xl:bottom-[29.5rem] px-1 py-1 bg-m-8/90 border border-white/50 rounded-xl xl:flex'>
                         {heroIcons.map((icon, index) => (
                             <li className="p-5" key={index}>
                                 <img src={icon} width={24} height={25} alt={icon} />
@@ -95,9 +96,10 @@ const Hero = () => {
                 </ScrollParallax>  
 
                 <MyBackgroundCircles /> 
-                
-                <BottomLine />
             </div>
+
+            <CompanyLogos className="relative lg:block mt-72 px-20" />
+
         </div>
         
     </Section>
