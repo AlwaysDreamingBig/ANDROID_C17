@@ -7,6 +7,7 @@ import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { MyBackgroundCircles } from './design/MyHero';
 import Generating from './GeneratingCard';
+import Notification from './NotificationCard';
 
 const Hero = () => {
 
@@ -84,7 +85,14 @@ const Hero = () => {
                             </li>
                         ))}
                     </ul>
-                </ScrollParallax>    
+                </ScrollParallax>  
+
+                <ScrollParallax isAbsolutelyPositioned>
+                  <Notification
+                    className="hidden absolute -right-[15rem] -bottom-[22%] w-[18rem] xl:flex"
+                    title="Defeated Enemies"
+                  />
+                </ScrollParallax>  
 
                 <MyBackgroundCircles /> 
                 
