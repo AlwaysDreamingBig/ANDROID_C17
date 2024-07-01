@@ -30,13 +30,14 @@ const Hero = () => {
                     <div className='w-full left-0 right-0 border border-green-950'></div>
                 </h1>
 
-                <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-4 italic">
+                <p className="body-1 max-w-3xl mx-auto mb-6 text-white lg:mb-4 italic bg-m-8">
                     Unleash thy true puissance, Tarnished! And stand 'fore Me with thine AllMighty.
                     I surmise thou art not as feeble as erstwhile.
+                    Confront me, Dr. Gero's ultimate design, C17 first of all Cyborgs.
                 </p>
 
-                <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8 italic font-semibold">
-                    Confront me, Dr. Gero's ultimate design, C17 first of all Cyborgs.
+                <p className="body-1 max-w-3xl mx-auto mb-6 text-white lg:mb-8 italic font-semibold">
+                   
                 </p>
 
                 <Button 
