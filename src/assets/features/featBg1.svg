@@ -1,0 +1,13 @@
+<svg width="384" height="366" viewBox="0 0 384 366" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a linear gradient from bottom to top -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2b1b2e"/>
+      <stop offset="50%" stop-color="#4c3669"/>
+      <stop offset="100%" stop-color="#D633FF"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rectangle with rounded corners and gradient stroke -->
+  <rect x="1" y="1" width="382" height="364" rx="40" ry="40" stroke="url(#gradient)" stroke-width="2" fill="none" />
+</svg>
