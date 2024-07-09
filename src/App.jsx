@@ -1,6 +1,7 @@
 import Header from "./components/Header.jsx";
 import ButtonGradient from "./assets/svg/ButtonGradient.jsx"
 import Hero from "./components/Hero.jsx";
+import Benefits from "./components/Benefits.jsx";
 
 export default function App() {
   return (
@@ -9,6 +10,8 @@ export default function App() {
           <Header />
 
           <Hero />
+
+          <Benefits />
 
       </div>
 
