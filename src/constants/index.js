@@ -256,7 +256,7 @@ import {
     {
       id: "0",
       title: "Ask anything",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      text: "Unleash your curiosity with our unique feature! This mystical tool allows you to engage in a conversation with a wise and ancient dragon: Shenron.",
       backgroundUrl: "./src/assets/features/featBg1.svg",
       iconUrl: icon1,
       imageUrl: backG1,
@@ -264,7 +264,7 @@ import {
     {
       id: "1",
       title: "Engaging Storyline",
-      text: "A compelling narrative that immerses the user in a futuristic world where they need to battle cyborgs.",
+      text: "A compelling narrative that immerses the user in a futuristic world where they need to battle cyborgs. Go to Story Telling section to discover your story!",
       backgroundUrl: "./src/assets/features/featBg2.svg",
       iconUrl: icon2,
       imageUrl: backG2,
@@ -272,7 +272,7 @@ import {
     {
       id: "2",
       title: "Battle Mechanics",
-      text: "Real-time combat with intuitive controls for attacking, defending, and using special abilities.\n\rCombo systems and power-ups to add depth to the combat",
+      text: "Real-time combat with intuitive controls for attacking, defending, and using special abilities.\n\rCombo systems and power-ups and more",
       backgroundUrl: "./src/assets/features/featBg3.svg",
       iconUrl: icon3,
       imageUrl: backG3,
@@ -280,7 +280,7 @@ import {
     {
       id: "3",
       title: "Cyborg Opponents",
-      text: "Boss battles with larger, more challenging cyborgs that require strategic planning",
+      text: "Boss battles with larger, more challenging cyborgs that require strategic planning. \rDisplay your battle IQ",
       backgroundUrl: "./src/assets/features/featBg4.svg",
       iconUrl: icon4,
       imageUrl: backG4,
@@ -288,7 +288,7 @@ import {
     {
       id: "4",
       title: "Augmented Reality (AR)",
-      text: "AR integration to allow users to fight cyborgs in their real-world environment.\n\rInteractive environments where users can use real-world objects as part of the gameplay.",
+      text: "AR integration to allow users to fight cyborgs in their real-world environment and FUN environments.",
       backgroundUrl: "./src/assets/features/featBg5.svg",
       iconUrl: icon5,
       imageUrl: backG5,
@@ -359,4 +359,16 @@ import {
       iconUrl: facebook,
       url: "#",
     },
+  ];
+
+  export const gradientColors = [
+    'from-cyan-500 via-red-500 to-indigo-200',
+    'from-green-400 via-blue-500 to-indigo-200',
+    'from-yellow-400 via-orange-500 to-indigo-200',
+    'from-green-500 via-blue-500 to-indigo-200',
+    'from-red-400 via-purple-500 to-indigo-200',
+    'from-green-400 via-blue-500 to-indigo-200',
+    'from-purple-500 via-cyan-500 to-indigo-200',
+    'from-green-400 via-blue-500 to-indigo-200',
+    'from-indigo-400 via-purple-500 to-indigo-200',
   ];
