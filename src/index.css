@@ -28,6 +28,16 @@
   /* IE and Edge */
 }
 
+.shining {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 0, 0.8);
+  /* Adjust the glow effect as needed */
+  transform: scale(1.20);
+  /* Slightly enlarge the image */
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* width*/
+  width: 120%
+}
+
 @layer base {
   body {
     @apply font-sans bg-m-8 text-n-1 text-base;
