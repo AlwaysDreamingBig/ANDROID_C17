@@ -1,0 +1,15 @@
+import svg0 from "./african-android-17-dbz-software-engineer-looking-m.svg";
+import svg1 from "./african-android-17-dbz-software-engineer-looking-s (1).svg";
+import svg2 from "./african-android-17-dbz-software-engineer-looking-s (2).svg";
+import svg3 from "./african-android-17-dbz-software-engineer-looking-s (3).svg";
+import svg4 from "./african-android-17-dbz-software-engineer-looking-s (4).svg";
+import svg5 from "./african-android-17-dbz-software-engineer-looking-s.svg";
+import svg6 from "./android-17-dbz-software-engineer-looking-side (1).svg";
+import svg7 from "./android-17-dbz-software-engineer-looking-side.svg";
+import svg8 from "./android-17-dbz-software-engineer.svg";
+import svg9 from "./android-17-software-engineer (1).svg";
+import svg10 from "./android-17-software-engineer.svg";
+import svg11 from "./engineer.svg";
+import svg12 from "./software-engineer-manager.svg";
+import svg13 from "./software-engineer.svg";
+export {svg0, svg1, svg2, svg3, svg4, svg5, svg6, svg7, svg8, svg9, svg10, svg11, svg12, svg13};
