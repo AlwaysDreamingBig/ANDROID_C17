@@ -1,9 +1,9 @@
 import React from 'react'
 import Section from './Section'
 import Heading from './design/Heading'
-import { check, service1 } from '../assets'
+import { check, service1, service2 } from '../assets'
 import { android17Services } from '../constants'
-import { svg1 } from '../assets/myServices'
+import { svg1, svg12 } from '../assets/myServices'
 import Generating from './GeneratingCard'
 
 const Services = () => {
@@ -50,6 +50,29 @@ const Services = () => {
                         className="absolute left-20 right-20 -bottom-4 sm:bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2"
                         text={'Joining the party...'} />
 
+                </div>
+
+                <div className="relative z-1 grid gap-5 lg:grid-cols-2">
+                    <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+                        <div className="absolute inset-0">
+                            <img
+                            src={svg12}
+                            className="h-full w-full object-cover"
+                            width={630}
+                            height={750}
+                            alt="robot"
+                            />
+                        </div>
+                        
+                        <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
+                            <h4 className="h4 mb-4">Augmented Reality Integration</h4>
+                            <p className="body-2 mb-[3rem] text-n-3">
+                            Enhance your user experience with cutting-edge AR technology using our ANDROID-17 app&apos;s
+                            in-game AR feature. Try it now!
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
