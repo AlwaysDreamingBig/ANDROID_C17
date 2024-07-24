@@ -93,6 +93,16 @@ import {
     "Photo enhance",
     "Seamless Integration",
   ];
+
+  export const android17Services = [
+    "Software Development",
+    "Languages: C, C++, Python, Java, JS",
+    "Project Management Services",
+    "Web Development Services",
+    "Solution Design",
+    "Test Development/Operator",
+    "Flexibility",
+  ];
   
   export const brainwaveServicesIcons = [
     recording03,
