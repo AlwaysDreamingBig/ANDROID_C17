@@ -4,6 +4,7 @@ import Heading from './design/Heading'
 import { check, service1 } from '../assets'
 import { android17Services } from '../constants'
 import { svg1 } from '../assets/myServices'
+import Generating from './GeneratingCard'
 
 const Services = () => {
   return (
@@ -44,6 +45,11 @@ const Services = () => {
                             ))}
                         </ul>
                     </div>
+
+                    <Generating 
+                        className="absolute left-20 right-20 -bottom-4 sm:bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2"
+                        text={'Joining the party...'} />
+
                 </div>
             </div>
         </div>

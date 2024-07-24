@@ -1,6 +1,6 @@
 import { loading } from "../assets";
 
-const Generating = ({ className }) => {
+const Generating = ({ className, text }) => {
   return (
     <div>
       <div
@@ -9,7 +9,7 @@ const Generating = ({ className }) => {
         } text-base`}
       >
         <img className="w-5 h-5 mr-4" src={loading} alt="Loading" />
-        C-17 is powering up KI
+        {text ? `${text}` : 'C-17 is powering up KI'}
       </div>
 
       <div
@@ -18,7 +18,7 @@ const Generating = ({ className }) => {
         } text-base`}
       >
         <img className="w-5 h-5 mr-4" src={loading} alt="Loading" />
-        C-17 is powering up KI
+        {text ? `${text}` : 'C-17 is powering up KI'}
       </div>
     </div>
 
