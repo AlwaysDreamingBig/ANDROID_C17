@@ -3,7 +3,7 @@ import Section from './Section'
 import Heading from './design/Heading'
 import { check, service1, service2 } from '../assets'
 import { android17Services } from '../constants'
-import { svg1, svg12 } from '../assets/myServices'
+import { svg1, svg12, svg17, svg5, svg6 } from '../assets/myServices'
 import Generating from './GeneratingCard'
 
 const Services = () => {
@@ -72,6 +72,54 @@ const Services = () => {
                             </p>
                         </div>
 
+                        {/** Add photochat message component */}
+                    </div>
+
+                    <div className="relative grid gap-5 grid-rows-2">
+                        <div className="relative gap-5 border border-white/30 rounded-3xl overflow-hidden min-h-[300px] bg-gradient-to-b from-n-8/0 to-n-8/90">
+                            <div className="absolute top-0 right-0 w-full h-full sm:w-2/5 md:w-3/5 xl:w-auto">
+                                <img
+                                    className="w-full h-full object-cover md:object-right"
+                                    width={800}
+                                    alt="Girl AI"
+                                    height={730}
+                                    src={svg5}
+                                />
+                            </div>
+
+                            <div className="absolute inset-0 flex flex-col items-center justify-center text-center max-w-[28rem] sm:p-4">
+                                <h4 className="h2 font-bold font-serif mb-4">Inclusive Design Services</h4>
+                                <p className="body-2 text-n-3">
+                                    Creating Gender-Inclusive User Experiences: Male and Female Characters.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="relative gap-5 grid grid-cols-2 rounded-3xl overflow-hidden">
+                            <div className="relative gap-5 border border-white/30 rounded-3xl bg-green-600">
+                                <div className="absolute inset-0">
+                                    <img
+                                    src={svg6}
+                                    className="h-full w-full object-cover"
+                                    width={630}
+                                    height={750}
+                                    alt="robot"
+                                    />
+                                </div>
+                            </div>
+    
+                            <div className="relative gap-5 border border-white/30 rounded-3xl bg-purple-600">
+                                <div className="absolute inset-0">
+                                    <img
+                                    src={svg17}
+                                    className="h-full w-full object-cover"
+                                    width={630}
+                                    height={750}
+                                    alt="robot"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
