@@ -27,7 +27,7 @@ const StoryLine = () => {
 
             <div className=' sm:flex sm:justify-between sm:space-x-12'>
                 {/* Left Side:displaying chapters Images */}
-                <div className="container mx-auto p-4 flex flex-col justify-center items-center sm:w-1/3 rounded-lg shadow-2xl shadow-white">
+                <div className="container mx-auto p-4 flex flex-col justify-center items-center sm:w-1/3 rounded-lg shadow-2xl shadow-m-9">
                     <h2 className="sm:text-xl md:text-2xl lg:text-4xl font-bold lg:mb-24 mb-14 button">Chapters of your Story:</h2>
 
                     <div className="container mx-auto px-4 flex sm:space-x-5 md:space-x-10 space-x-20 lg:ml-6 mb-10">
