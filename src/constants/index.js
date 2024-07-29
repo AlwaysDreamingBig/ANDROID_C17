@@ -382,3 +382,12 @@ import {
     'from-green-400 via-blue-500 to-indigo-200',
     'from-indigo-400 via-purple-500 to-indigo-200',
   ];
+
+  import { svg16, svg17, svg18, svg19 } from '../assets/myServices'
+
+  export const imageServices = [
+    { src: svg17, text: 'Multiplayer Exp' },
+    { src: svg18, text: 'Online Game Design' },
+    { src: svg19, text: 'Advanced Design' },
+    { src: svg16, text: 'Futuristic Design' },
+  ];

@@ -38,6 +38,53 @@
   width: 120%
 }
 
+/* Custom styles for sliding animation */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter-active {
+  transform: translateX(0%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-exit {
+  transform: translateX(0%);
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Text overlay styling */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  /* Adjust font size as needed */
+  font-weight: normal;
+  /* Adjust font weight as needed */
+  padding: 1rem;
+  /* Adjust padding as needed */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background for better readability */
+  border-radius: 0.5rem;
+  /* Rounded corners for the overlay */
+}
+
+
 @layer base {
   body {
     @apply font-sans bg-m-8 text-n-1 text-base;

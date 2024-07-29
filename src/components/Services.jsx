@@ -1,12 +1,29 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Section from './Section'
 import Heading from './design/Heading'
 import { check, service1, service2 } from '../assets'
-import { android17Services } from '../constants'
-import { svg1, svg12, svg17, svg5, svg6 } from '../assets/myServices'
+import { android17Services, imageServices } from '../constants'
+import { svg1, svg12, svg5, svg6 } from '../assets/myServices'
 import Generating from './GeneratingCard'
 
 const Services = () => {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [nextImageIndex, setNextImageIndex] = useState(1);
+    const [isSliding, setIsSliding] = useState(false);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setIsSliding(true);
+        setTimeout(() => {
+          setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageServices.length);
+          setNextImageIndex((prevIndex) => (prevIndex + 1) % imageServices.length);
+          setIsSliding(false);
+        }, 500); // Match this duration with the CSS transition duration
+      }, 3000); // Change image every 3 seconds
+  
+      return () => clearInterval(interval);
+    }, []);
+
   return (
     <Section id={"how-to-use"}>
         <div className="container">
@@ -106,17 +123,29 @@ const Services = () => {
                                     alt="robot"
                                     />
                                 </div>
-                            </div>
-    
+                                                </div>
+                        
                             <div className="relative gap-5 border border-white/30 rounded-3xl bg-purple-600">
-                                <div className="absolute inset-0">
+                                <div className="relative image-container">
                                     <img
-                                    src={svg17}
-                                    className="h-full w-full object-cover"
+                                    src={imageServices[currentImageIndex].src}
+                                    className={`h-full w-full object-cover transform ${isSliding ? 'slide-exit-active' : 'slide-exit'} transition-transform duration-500`}
                                     width={630}
                                     height={750}
-                                    alt="robot"
+                                    alt="current"
                                     />
+
+                                    <img
+                                    src={imageServices[nextImageIndex].src}
+                                    className={`hidden h-full w-full object-cover transform ${isSliding ? 'slide-enter-active' : 'slide-enter'} transition-transform duration-500`}
+                                    width={630}
+                                    height={750}
+                                    alt="next"
+                                    />
+
+                                    <div className="text-overlay">
+                                        {imageServices[currentImageIndex].text}
+                                    </div>
                                 </div>
                             </div>
                         </div>
