@@ -391,3 +391,17 @@ import {
     { src: svg19, text: 'Advanced Design' },
     { src: svg16, text: 'Futuristic Design' },
   ];
+
+  import {  img1, img3, img4, img8, img9, img10, img11, img12 } from '../assets/screenshots';
+
+  export const screenshots = [
+    { id: 1, src: img11, alt: 'Screenshot 12' },
+    { id: 2, src: img1, alt: 'Screenshot 2' },
+    { id: 4, src: img3, alt: 'Screenshot 4' },
+    { id: 5, src: img4, alt: 'Screenshot 5' },
+    { id: 9, src: img8, alt: 'Screenshot 9' },
+    { id: 10, src: img9, alt: 'Screenshot 10' },
+    { id: 11, src: img10, alt: 'Screenshot 11' },
+    { id: 13, src: img12, alt: 'Screenshot 13' },
+  ];
+  
