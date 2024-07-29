@@ -1,0 +1,14 @@
+import img0 from "./2-a-character-selection-screen-showing-different-c-t_gWuxCqQ8KisNmfXpufww-4u1FAvsFS1KXhCXf5DnaIg.jpeg";
+import img1 from "./6-an-augmented-reality-ar-feature-screen-where-pla-psEw2EAcRVi_HQlMPiaL9w-WuQPALlgTeWBBtz3LfgRCw.jpeg";
+import img2 from "./7-a-boss-battle-screen-with-a-larger-more-challeng-GIOKrIdwSwutbfkCS09TmQ-cwpjIGOeQGO0-wbJo6V-EA.jpeg";
+import img3 from "./7-a-boss-battle-screen-with-a-larger-more-challeng-ZGUQsVEaTsOFassXvk7EZg-OjsuZG2MR1ObwZoSG5Z0tg.jpeg";
+import img4 from "./a-futuristic-multiplayer-game-lobby-displaying-var-tnvZaCccSCGCez7YgLY14w-5Rsl2WOURk-UEefRKfPB6g.jpeg";
+import img5 from "./a-main-menu-screen-featuring-the-game-s-title--and (1).svg";
+import img6 from "./a-main-menu-screen-featuring-the-game-s-title--and.svg";
+import img7 from "./a-stunning-futuristic-character-selection-screen-s-GP1qlyV-QcemGvRodhXerQ-4u1FAvsFS1KXhCXf5DnaIg (1).jpeg";
+import img8 from "./a-stunning-futuristic-character-selection-screen-s-GP1qlyV-QcemGvRodhXerQ-4u1FAvsFS1KXhCXf5DnaIg.jpeg";
+import img9 from "./a-thrilling-futuristic-battle-scene-set-in-a-neon--ZNBdHJWISla-ibjC9TEpMw-u54HmgKfQ6C-Krp2oKBuuQ.jpeg";
+import img10 from "./a-visually-stunning-victory-screen-from-a-futurist-NFntcFb3Q_artvtvFmgDiw-aoUMU46nQh-vdutpXNSaXQ.jpeg";
+import img11 from "./an-enticing-game-menu-screen-for-android-17-featur-VA_ULv4dSM6WuAMVIztEbQ-5n3AYD9cT8ueF91-Vp2nbw.jpeg";
+import img12 from "./video-game-gameplay-screenshot.svg";
+export {img0, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12};
