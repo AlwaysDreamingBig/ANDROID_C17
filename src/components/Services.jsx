@@ -25,7 +25,7 @@ const Services = () => {
     }, []);
 
   return (
-    <Section id={"how-to-use"}>
+    <Section id={"how-to-use"} crosses={true}>
         <div className="container">
             <Heading 
                 title={"Our Expert Services"}
@@ -129,7 +129,7 @@ const Services = () => {
                                 <div className="relative image-container">
                                     <img
                                     src={imageServices[currentImageIndex].src}
-                                    className={`h-full w-full object-cover transform ${isSliding ? 'slide-exit-active' : 'slide-exit'} transition-transform duration-500`}
+                                    className={`h-full w-full object-cover transform ${isSliding ? 'slide-exit-active' : 'slide-exit'} transition-transform duration-500 rounded-3xl`}
                                     width={630}
                                     height={750}
                                     alt="current"
@@ -137,7 +137,7 @@ const Services = () => {
 
                                     <img
                                     src={imageServices[nextImageIndex].src}
-                                    className={`hidden h-full w-full object-cover transform ${isSliding ? 'slide-enter-active' : 'slide-enter'} transition-transform duration-500`}
+                                    className={`hidden h-full w-full object-cover transform ${isSliding ? 'slide-enter-active' : 'slide-enter'} transition-transform duration-500 rounded-3xl`}
                                     width={630}
                                     height={750}
                                     alt="next"
