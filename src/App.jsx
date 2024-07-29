@@ -4,6 +4,7 @@ import Hero from "./components/Hero.jsx";
 import Features from "./components/Features.jsx";
 import StoryLine from "./components/StoryLine.jsx";
 import Services from "./components/Services.jsx";
+import Screenshots from "./components/Screenshots.jsx";
 
 export default function App() {
   return (
@@ -18,6 +19,8 @@ export default function App() {
           <StoryLine />
 
           <Services />
+
+          <Screenshots />
 
       </div>
 
