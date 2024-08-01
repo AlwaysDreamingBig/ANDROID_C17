@@ -5,6 +5,7 @@ import Features from "./components/Features.jsx";
 import StoryLine from "./components/StoryLine.jsx";
 import Services from "./components/Services.jsx";
 import Screenshots from "./components/Screenshots.jsx";
+import Pricing from "./components/Pricing.jsx";
 
 export default function App() {
   return (
@@ -21,6 +22,8 @@ export default function App() {
           <Services />
 
           <Screenshots />
+
+          <Pricing />
 
       </div>
 
