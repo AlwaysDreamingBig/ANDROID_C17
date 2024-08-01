@@ -405,3 +405,84 @@ import {
     { id: 13, src: img12, alt: 'Screenshot 13' },
   ];
   
+  export const plans = [
+    {
+      plan: 'Basic',
+      price: '19',
+      features: [
+        'Unlimited Access',
+        '24/7 Support',
+        'Advanced Analytics',
+      ],
+      additionalFeatures: [
+        'Customizable Settings',
+        'High-Definition Streaming',
+        'Multi-Device Sync',
+        'Exclusive Content',
+        'Priority Support',
+        'Extended Storage',
+      ],
+      cta: 'Get Started',
+      icon: '🌟',
+      color: 'text-red-400',
+    },
+    {
+      plan: 'Gold',
+      price: '49',
+      features: [
+        'Unlimited Access',
+        '24/7 Support',
+        'Advanced Analytics',
+        'Customizable Settings',
+      ],
+      additionalFeatures: [
+        'High-Definition Streaming',
+        'Multi-Device Sync',
+        'Exclusive Content',
+        'Priority Support',
+        'Extended Storage',
+      ],
+      cta: 'Get Started',
+      icon: '🏅',
+      color: 'text-yellow-400',
+    },
+    {
+      plan: 'Premium',
+      price: '99',
+      features: [
+        'Unlimited Access',
+        '24/7 Support',
+        'Advanced Analytics',
+        'Customizable Settings',
+        'High-Definition Streaming',
+        'Multi-Device Sync',
+        'Exclusive Content',
+      ],
+      additionalFeatures: [
+        'Priority Support',
+        'Extended Storage',
+      ],
+      cta: 'Get Started',
+      icon: '🎖️',
+      color: 'text-green-400',
+    },
+    {
+      plan: 'Premium Deluxe',
+      price: '149',
+      features: [
+        'Unlimited Access',
+        '24/7 Support',
+        'Advanced Analytics',
+        'Customizable Settings',
+        'High-Definition Streaming',
+        'Multi-Device Sync',
+        'Exclusive Content',
+        'Priority Support',
+        'Extended Storage',
+      ],
+      additionalFeatures: [],
+      cta: 'Contact Us',
+      icon: '👑',
+      color: 'text-cyan-400',
+    }
+  ];
