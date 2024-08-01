@@ -96,6 +96,10 @@ export default {
         "benefit-card-5": "url(assets/benefits/card-5.svg)",
         "benefit-card-6": "url(assets/benefits/card-6.svg)",
       },
+      screens: {
+        'Sm': {'max': '767px'},
+        'Md': {'min': '767px', 'max': '1280px'},
+      },
     },
   },
   plugins: [

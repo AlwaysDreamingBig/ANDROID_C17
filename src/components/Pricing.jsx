@@ -37,25 +37,28 @@ const Pricing = () => {
               <Heading 
                 title={"Choose Your Plan"}
                 tag={"Get The Game: Flexible Pricing Options to Suit Your Needs"}
-                />
+              />
+              
                 <div className="relative flex justify-between">
-                  {plans.map((plan, index) => (
-                    <PricingCard 
-                      key={index}
-                      plan={plan.plan}
-                      price={plan.price}
-                      features={plan.features}
-                      additionalFeatures={plan.additionalFeatures}
-                      cta={plan.cta}
-                      icon={plan.icon}
-                      className={plan.color}
-                    />
-                  ))}
+                  <div className="flex gap-[1rem] Sm:flex-wrap Sm:space-y-8 Md:grid Md:grid-cols-2 lg:grid-cols-4 w-full">
+                    {plans.map((plan, index) => (
+                      <PricingCard 
+                        key={index}
+                        plan={plan.plan}
+                        price={plan.price}
+                        features={plan.features}
+                        additionalFeatures={plan.additionalFeatures}
+                        cta={plan.cta}
+                        icon={plan.icon}
+                        className={plan.color}
+                      />
+                    ))}
+                  </div>
 
-                  <LeftLine />
+                <LeftLine />
 
-                  <RightLine />
-                </div>
+                <RightLine />
+              </div>
             </div>
 
             <div className="flex justify-center mt-20">

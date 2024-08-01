@@ -2,7 +2,7 @@ import React from 'react';
 
 const PricingCard = ({ plan, price, features, additionalFeatures, cta, icon, className }) => {
   return (
-    <div className="bg-gradient-to-r from-m-8 via-gray-900 to-black/60 relative border border-green-800 min-w-[300px] text-white rounded-2xl shadow-2xl overflow-hidden p-6 transform transition-transform duration-300 hover:scale-105">
+    <div className="bg-gradient-to-r from-m-8 via-gray-900 to-black/60 relative border border-green-800 min-w-[300px] text-white rounded-2xl shadow-2xl overflow-hidden p-6 transform transition-transform duration-300 hover:scale-105 max-md:w-full Sm:w-full">
       <div className="flex flex-col items-center text-center mb-6">
         <div className="text-6xl mb-4">{icon}</div>
         <h2 className={`text-2xl font-bold mb-2 button ${className} `}>{plan}</h2>
