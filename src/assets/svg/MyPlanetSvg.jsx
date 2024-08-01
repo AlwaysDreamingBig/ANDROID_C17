@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Planet1 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet1 = ({ className = "-left-5", width = "30", height = "20" }) => {
   return (
     <svg
       className={className}
@@ -90,7 +90,7 @@ export const Planet1 = ({ className = "-left-5", width = "50", height = "50" }) 
 };
 
 
-export const Planet2 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet2 = ({ className = "-left-5", width = "20", height = "20" }) => {
     return (
       <svg
         className={className}
@@ -183,7 +183,7 @@ export const Planet2 = ({ className = "-left-5", width = "50", height = "50" }) 
     );
   };
 
-  export const Planet3 = ({ className = "-left-5", width = "50", height = "50" }) => {
+  export const Planet3 = ({ className = "-left-5", width = "30", height = "30" }) => {
     return (
       <svg
         className={className}
@@ -341,7 +341,7 @@ export const Planet2 = ({ className = "-left-5", width = "50", height = "50" }) 
     );
   };
 
-export const Planet4 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet4 = ({ className = "-left-5", width = "30", height = "30" }) => {
     return (
         <svg
         className={className}
@@ -494,7 +494,7 @@ export const Planet4 = ({ className = "-left-5", width = "50", height = "50" }) 
 };
 
 
-export const Planet5 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet5 = ({ className = "-left-5", width = "30", height = "30" }) => {
     return (
         <svg
         className={className}
@@ -592,7 +592,7 @@ export const Planet5 = ({ className = "-left-5", width = "50", height = "50" }) 
     );
 };
 
-export const Planet6 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet6 = ({ className = "-left-5", width = "20", height = "20" }) => {
     return (
         <svg
         className={className}
@@ -711,7 +711,7 @@ export const Planet6 = ({ className = "-left-5", width = "50", height = "50" }) 
     );
 };
 
-export const Planet7 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet7 = ({ className = "-left-5", width = "10", height = "10" }) => {
     return (
         <svg
         className={className}
@@ -797,7 +797,7 @@ export const Planet7 = ({ className = "-left-5", width = "50", height = "50" }) 
     );
 };
 
-export const Planet8 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet8 = ({ className = "-left-5", width = "25", height = "25" }) => {
     return (
         <svg
         className={className}
@@ -977,7 +977,7 @@ export const Planet8 = ({ className = "-left-5", width = "50", height = "50" }) 
     );
 };
 
-export const Planet9 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet9 = ({ className = "-left-5", width = "40", height = "40" }) => {
     return (
         <svg
         className={className}
@@ -1108,7 +1108,7 @@ export const Planet9 = ({ className = "-left-5", width = "50", height = "50" }) 
     );
 };
 
-export const Planet10 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet10 = ({ className = "-left-5", width = "30", height = "30" }) => {
     return (
         <svg
         className={className}
@@ -1123,7 +1123,7 @@ export const Planet10 = ({ className = "-left-5", width = "50", height = "50" })
     );
 };
 
-export const Planet11 = ({ className = "-left-5", width = "50", height = "50" }) => {
+export const Planet11 = ({ className = "-left-5", width = "30", height = "30" }) => {
     return (
         <svg
         className={className}
