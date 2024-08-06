@@ -11,7 +11,12 @@ import myRoadmap9 from "./create-an-image-of-a-futuristic-ai-battle-assistan-V_f
 import myRoadmap10 from "./create-an-image-showing-in-game-voice-chat-functio-wnoJ2lC0SBmKzlNFn9U7YA-CsmbKulhQvuOLMUuwHLvEw.jpeg";
 import myRoadmap11 from "./create-an-image-that-depicts-a-futuristic-chatbot--E3Yoqh_oR7izmARYeVTb0g-wQBYCDSGQKa-urKTJ2Wy9g.jpeg";
 import myRoadmap12 from "./create-an-image-that-depicts-a-futuristic-chatbot-.svg";
-import myRoadmap13 from "./generate-an-image-showcasing-vr-support-for-a-sci--dxvXUU69RXSq2_lt0PI6dg-U0-twCyKSVq1_7X9Fn_1jg.jpeg";
-import myRoadmap14 from "./illustrate-a-cooperative-multiplayer-mission-in-a--gOPVewreTX6ek2R39SE4Bw-J-X6mlFjTwmlmR5tPS0Cdw.jpeg";
-import myRoadmap15 from "./in-this-futuristic-sci-fi-game-the-weather-conditi-BfjXpMndSwunRfueoC3OBg-1iyMm2ApTzKTpl43YVGMHw.jpeg";
-export {myRoadmap0, myRoadmap1, myRoadmap2, myRoadmap3, myRoadmap4, myRoadmap5, myRoadmap6, myRoadmap7, myRoadmap8, myRoadmap9, myRoadmap10, myRoadmap11, myRoadmap12, myRoadmap13, myRoadmap14, myRoadmap15};
+import doneIcon from "./doneIcon.png";
+import myRoadmap14 from "./generate-an-image-showcasing-vr-support-for-a-sci--dxvXUU69RXSq2_lt0PI6dg-U0-twCyKSVq1_7X9Fn_1jg.jpeg";
+import myRoadmap15 from "./illustrate-a-cooperative-multiplayer-mission-in-a--gOPVewreTX6ek2R39SE4Bw-J-X6mlFjTwmlmR5tPS0Cdw.jpeg";
+import myRoadmap16 from "./in-this-futuristic-sci-fi-game-the-weather-conditi-BfjXpMndSwunRfueoC3OBg-1iyMm2ApTzKTpl43YVGMHw.jpeg";
+import inProgressIcon1 from "./inProgressIcon1.png";
+import inProgressIcon2 from "./inProgressIcon2.png";
+import plannedIcon1 from "./plannedIcon1.png";
+import plannedIcon2 from "./plannedIcon2.png";
+export {myRoadmap0, myRoadmap1, myRoadmap2, myRoadmap3, myRoadmap4, myRoadmap5, myRoadmap6, myRoadmap7, myRoadmap8, myRoadmap9, myRoadmap10, myRoadmap11, myRoadmap12, doneIcon, myRoadmap14, myRoadmap15, myRoadmap16, inProgressIcon1, inProgressIcon2, plannedIcon1, plannedIcon2};
