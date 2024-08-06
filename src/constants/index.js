@@ -498,22 +498,25 @@ import {
       status: "done",
       imageUrl: myRoadmap0,
       colorful: true,
+      classname: "bg-green-500",
     },
     {
       id: "1",
       title: "Co-Op Multiplayer Missions",
       text: "Introduce cooperative multiplayer missions, allowing players to team up with friends and complete challenges together.",
       date: "January 2025",
-      status: "progress",
+      status: "done",
       imageUrl: myRoadmap1,
+      classname: "bg-green-500",
     },
     {
       id: "2",
       title: "Character Customization",
       text: "Enable extensive character customization options, including outfits, accessories, and abilities, to personalize the gameplay experience.",
       date: "May 2025",
-      status: "done",
+      status: "progress",
       imageUrl: myRoadmap2,
+      classname: "bg-gradient-to-r from-green-500 via-gree-300 to-green-100 text-black",
     },
     {
       id: "3",
@@ -522,6 +525,7 @@ import {
       date: "August 2025",
       status: "progress",
       imageUrl: myRoadmap3,
+      classname: "bg-gradient-to-r from-green-500 via-gree-300 to-green-100 text-black",
     },
     {
       id: "4",
@@ -530,6 +534,7 @@ import {
       date: "December 2025",
       status: "planned",
       imageUrl: myRoadmap4,
+      classname: "bg-gradient-to-r from-purple-500",
     },
     {
       id: "5",
@@ -538,6 +543,7 @@ import {
       date: "Febuary 2026",
       status: "planned",
       imageUrl: myRoadmap5,
+      classname: "bg-gradient-to-r from-purple-500",
     },
     {
       id: "6",
@@ -546,6 +552,7 @@ import {
       date: "July 2026",
       status: "planned",
       imageUrl: myRoadmap6,
+      classname: "bg-gradient-to-r from-purple-500",
     },
     {
       id: "7",
@@ -554,6 +561,7 @@ import {
       date: "December 2026",
       status: "planned",
       imageUrl: myRoadmap7,
+      classname: "bg-gradient-to-r from-purple-500",
     },
   ];
   
