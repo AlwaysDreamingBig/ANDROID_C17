@@ -486,3 +486,74 @@ import {
       color: 'text-cyan-400',
     }
   ];
+
+  import { myRoadmap0, myRoadmap1, myRoadmap2, myRoadmap3, myRoadmap4, myRoadmap5, myRoadmap6, myRoadmap7 } from "../assets/myRoacmap";
+
+  export const myRoadmap = [
+    {
+      id: "0",
+      title: "AI-Powered Battle Assistant",
+      text: "Implement an AI assistant to provide strategic advice during battles, enhancing player decision-making and tactics.",
+      date: "October 2024",
+      status: "done",
+      imageUrl: myRoadmap0,
+      colorful: true,
+    },
+    {
+      id: "1",
+      title: "Co-Op Multiplayer Missions",
+      text: "Introduce cooperative multiplayer missions, allowing players to team up with friends and complete challenges together.",
+      date: "January 2025",
+      status: "progress",
+      imageUrl: myRoadmap1,
+    },
+    {
+      id: "2",
+      title: "Character Customization",
+      text: "Enable extensive character customization options, including outfits, accessories, and abilities, to personalize the gameplay experience.",
+      date: "May 2025",
+      status: "done",
+      imageUrl: myRoadmap2,
+    },
+    {
+      id: "3",
+      title: "Dynamic Weather System",
+      text: "Add a dynamic weather system that impacts gameplay, creating varying conditions and challenges in different missions.",
+      date: "August 2025",
+      status: "progress",
+      imageUrl: myRoadmap3,
+    },
+    {
+      id: "4",
+      title: "In-Game Voice Chat",
+      text: "Implement in-game voice chat functionality to enhance communication and coordination among team members.",
+      date: "December 2025",
+      status: "planned",
+      imageUrl: myRoadmap4,
+    },
+    {
+      id: "5",
+      title: "Leaderboard and Ranking System",
+      text: "Introduce a global leaderboard and ranking system to foster competitive gameplay and reward top players.",
+      date: "Febuary 2026",
+      status: "planned",
+      imageUrl: myRoadmap5,
+    },
+    {
+      id: "6",
+      title: "Expanded Storyline",
+      text: "Release new chapters and missions to expand the storyline, providing players with fresh content and deeper narrative experiences.",
+      date: "July 2026",
+      status: "planned",
+      imageUrl: myRoadmap6,
+    },
+    {
+      id: "7",
+      title: "Virtual Reality (VR) Support",
+      text: "Develop VR support to offer an immersive gameplay experience, allowing players to step into the world of Android-17.",
+      date: "December 2026",
+      status: "planned",
+      imageUrl: myRoadmap7,
+    },
+  ];
+  
