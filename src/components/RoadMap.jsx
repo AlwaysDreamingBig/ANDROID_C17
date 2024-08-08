@@ -4,6 +4,7 @@ import { myRoadmap } from '../constants';
 import TagLine from './design/Tagline';
 import Heading from './design/Heading';
 import { doneIcon, inProgressIcon2, plannedIcon1 } from '../assets/myRoacmap';
+import { useInView } from 'react-intersection-observer';
 
 const Roadmap = () => {
   return (
@@ -26,34 +27,42 @@ const Roadmap = () => {
             ))}
           </div>
 
-          {myRoadmap.map((milestone, index) => (
-            <div
-              key={milestone.id}
-              className={`relative ${index % 2 === 0 ? 'self-start' : 'self-end'} w-full md:w-1/2 lg:w-1/3 transform hover:scale-105 transition-transform duration-300 ${milestone.classname} rounded-lg shadow-lg p-6 mb-8 z-10`}
-              style={{ transform: `rotate(${index % 2 === 0 ? '-2deg' : '2deg'})` }}
-            >
-              <div className="absolute w-full h-full top-0 left-0 bg-black opacity-10 transform rotate-2" />
-              <img
-                src={milestone.imageUrl}
-                alt={milestone.title}
-                className="w-full h-60 object-cover rounded-lg mb-4 "
-              />
-              <h3 className="text-2xl font-bold mb-2">{milestone.title}</h3>
-              <p className="mb-4">{milestone.text}</p>
-              <div className="block text-sm text-gray-400"><TagLine dateClassName={"text-cyan-200 font-semibold"}>{milestone.date}</TagLine></div>
-              <div className={`absolute flex items-center top-0 right-0 m-2 px-2 py-1 rounded-full text-white text-xs ${milestone.status === 'done' ? 'bg-green-500' : milestone.status === 'progress' ? 'bg-yellow-500' : 'bg-purple-500'}`}>
-                <img
-                  src={milestone.status === "done"? doneIcon : milestone.status === "planned"? plannedIcon1 : inProgressIcon2}
-                  className=' mr-2'
-                  width={20}
-                  height={20}
-                  alt={milestone.status} 
-                />
+          {myRoadmap.map((milestone, index) => {
+            const { ref, inView } = useInView({
+              triggerOnce: false, // Animation triggers once
+              threshold: 0.2,    // Trigger when 10% of the element is in view
+            });
 
-                {milestone.status.toUpperCase()}
+            return (
+              <div
+                key={milestone.id}
+                ref={ref} // Set the ref for the Intersection Observer
+                className={`relative ${index % 2 === 0 ? 'self-start' : 'self-end'} w-full md:w-1/2 lg:w-1/3 transform hover:scale-105 transition-transform duration-300 ${milestone.classname} rounded-lg shadow-lg p-6 mb-8 z-10 ${inView ? 'fade-in-up' : ''}`} // Apply the animation class conditionally
+                style={{ transform: `rotate(${index % 2 === 0 ? '-2deg' : '2deg'})` }}
+              >
+                <div className="absolute w-full h-full top-0 left-0 bg-black opacity-10 transform rotate-2" />
+                <img
+                  src={milestone.imageUrl}
+                  alt={milestone.title}
+                  className="w-full h-60 object-cover rounded-lg mb-4 "
+                />
+                <h3 className="text-2xl font-bold mb-2">{milestone.title}</h3>
+                <p className="mb-4">{milestone.text}</p>
+                <div className="block text-sm text-gray-400"><TagLine dateClassName={"text-cyan-200 font-semibold"}>{milestone.date}</TagLine></div>
+                <div className={`absolute flex items-center top-0 right-0 m-2 px-2 py-1 rounded-full text-white text-xs ${milestone.status === 'done' ? 'bg-green-500' : milestone.status === 'progress' ? 'bg-yellow-500' : 'bg-purple-500'}`}>
+                  <img
+                    src={milestone.status === "done"? doneIcon : milestone.status === "planned"? plannedIcon1 : inProgressIcon2}
+                    className=' mr-2'
+                    width={20}
+                    height={20}
+                    alt={milestone.status} 
+                  />
+
+                  {milestone.status.toUpperCase()}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </Section>
