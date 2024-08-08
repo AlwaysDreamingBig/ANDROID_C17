@@ -73,11 +73,22 @@ import {
       url: "#login",
       onlyMobile: true,
     },
-    ,
     {
       id: "6",
       title: "About us",
       url: "#aboutus",
+      onlyMobile: false,
+    },
+    {
+      id: "7",
+      title: "Story",
+      url: "#storyline",
+      onlyMobile: false,
+    },
+    {
+      id: "8",
+      title: "Screen",
+      url: "#screenshots",
       onlyMobile: false,
     },
   ];
