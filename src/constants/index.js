@@ -487,7 +487,7 @@ import {
     }
   ];
 
-  import { myRoadmap0, myRoadmap1, myRoadmap2, myRoadmap3, myRoadmap4, myRoadmap5, myRoadmap6, myRoadmap7 } from "../assets/myRoacmap";
+  import { myRoadmap0, myRoadmap10, myRoadmap14, myRoadmap15, myRoadmap16, myRoadmap3, myRoadmap4, myRoadmap7 } from "../assets/myRoacmap";
 
   export const myRoadmap = [
     {
@@ -506,16 +506,16 @@ import {
       text: "Introduce cooperative multiplayer missions, allowing players to team up with friends and complete challenges together.",
       date: "January 2025",
       status: "done",
-      imageUrl: myRoadmap1,
+      imageUrl: myRoadmap15,
       classname: "bg-green-500",
     },
     {
       id: "2",
       title: "Character Customization",
-      text: "Enable extensive character customization options, including outfits, accessories, and abilities, to personalize the gameplay experience.",
+      text: "Enable extensive character customization options, including outfits, accessories, and abilities, to personalize the gameplay.",
       date: "May 2025",
       status: "progress",
-      imageUrl: myRoadmap2,
+      imageUrl: myRoadmap7,
       classname: "bg-gradient-to-r from-green-500 via-gree-300 to-green-100 text-black",
     },
     {
@@ -524,7 +524,7 @@ import {
       text: "Add a dynamic weather system that impacts gameplay, creating varying conditions and challenges in different missions.",
       date: "August 2025",
       status: "progress",
-      imageUrl: myRoadmap3,
+      imageUrl: myRoadmap16,
       classname: "bg-gradient-to-r from-green-500 via-gree-300 to-green-100 text-black",
     },
     {
@@ -533,7 +533,7 @@ import {
       text: "Implement in-game voice chat functionality to enhance communication and coordination among team members.",
       date: "December 2025",
       status: "planned",
-      imageUrl: myRoadmap4,
+      imageUrl: myRoadmap10,
       classname: "bg-gradient-to-r from-purple-500",
     },
     {
@@ -542,7 +542,7 @@ import {
       text: "Introduce a global leaderboard and ranking system to foster competitive gameplay and reward top players.",
       date: "Febuary 2026",
       status: "planned",
-      imageUrl: myRoadmap5,
+      imageUrl: myRoadmap3,
       classname: "bg-gradient-to-r from-purple-500",
     },
     {
@@ -551,7 +551,7 @@ import {
       text: "Release new chapters and missions to expand the storyline, providing players with fresh content and deeper narrative experiences.",
       date: "July 2026",
       status: "planned",
-      imageUrl: myRoadmap6,
+      imageUrl: myRoadmap4,
       classname: "bg-gradient-to-r from-purple-500",
     },
     {
@@ -560,7 +560,7 @@ import {
       text: "Develop VR support to offer an immersive gameplay experience, allowing players to step into the world of Android-17.",
       date: "December 2026",
       status: "planned",
-      imageUrl: myRoadmap7,
+      imageUrl: myRoadmap14,
       classname: "bg-gradient-to-r from-purple-500",
     },
   ];
